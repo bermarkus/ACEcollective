@@ -1,0 +1,51 @@
+# Build directories
+build/
+out/
+build*/
+*.exe
+*.dll
+*.lib
+*.so
+*.a
+*.dylib
+
+# IDE files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.sln.docstates
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+
+# Config files
+imgui.ini
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Vendor directories fetched locally rather than committed (matches
+# ACEapp_multi's convention -- see its CMakeLists.txt warnings for where to
+# download these from):
+#   vendor/glfw/  -- https://github.com/glfw/glfw
+#   lib/lsl/      -- prebuilt liblsl SDK, https://github.com/sccn/liblsl/releases
+vendor/glfw/
+lib/lsl/
+
+# macOS-specific
+*.dSYM/
+.AppleDouble
+.LSOverride
+xcuserdata/
+*.xcworkspace
+*.xcodeproj
+
+# Recordings and logs written at runtime (see utils/app_paths)
+recordings/*
+!recordings/.gitkeep
