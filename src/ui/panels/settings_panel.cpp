@@ -90,7 +90,7 @@ void SettingsPanel::render_content()
     static const Band presets[] = {
         {"Theta 4-8 Hz", 4.0f, 8.0f},
         {"Alpha 8-12 Hz", 8.0f, 12.0f},
-        {"Beta 13-30 Hz", 13.0f, 30.0f},
+        {"Beta 12-30 Hz", 12.0f, 30.0f},
         {"Gamma 30-45 Hz", 30.0f, 45.0f},
     };
     for (const auto& band : presets) {
